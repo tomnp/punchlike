@@ -33,7 +33,7 @@ const Page = () => {
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
-          Hello, I&apos;m a developer from VietNam!
+          Hola! I&apos;m a developer from VietNam!
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -41,7 +41,10 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Nghi Nguyen
             </Heading>
-            <p>( Developer / Esports / Chess )</p>
+            <p>( Developer / Esports / {' '}
+              <Link href="https://chess.com/member/nomalguy" target="_blank">
+                Chess
+              </Link> )</p>
           </Box>
           <Box
             flexShrink={0}
@@ -68,9 +71,9 @@ const Page = () => {
           </Heading>
           <Paragraph>
             I am a full-stack developer based in Vietnam with a
-            passion for building digital "stuff" for life. I am joining
-            with my co-worker anywhere to solve problems of your company.
-            When not online, I ♥ playing sports with homies.
+            passion for building digital &quot;thing&quot; for life. I am joining
+            with my co-worker anywhere to solve anyone&apos;problems.
+            In the free time, I ♥ playing sports with my homies.
             Currently, I am building my {' '}
             <NextLink href="./works">
               <Link>Metaverse</Link>
@@ -118,7 +121,11 @@ const Page = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Movie, Chess, Badminton, Music, Playing Eposts,{' '}
+            Movie, {' '}
+            <Link href="https://chess.com/member/nomalguy" target="_blank">
+              Chess
+            </Link>,
+            Badminton, Music, Playing Esports,{' '}
             <Link href="https://instagram.com/phatnghi/" target="_blank">
               Photography
             </Link>
