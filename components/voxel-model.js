@@ -53,13 +53,13 @@ const VoxelModel = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005
+      const scale = scH * 0.005 + 35
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
         scale,
         -scale,
-        1,
+        0.01,
         50000
       )
       camera.position.copy(initialCameraPosition)
@@ -74,7 +74,7 @@ const VoxelModel = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/car.glb', {
+      loadGLTFModel(scene, '/totoro.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
