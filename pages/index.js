@@ -72,7 +72,7 @@ const Page = () => {
           <Paragraph>
             I am a full-stack developer based in Vietnam with a
             passion for building digital &quot;thing&quot; for life. I am joining
-            with my co-worker anywhere to solve anyone&apos;problems.
+            with my co-worker anywhere to solve anyone&apos;s problems.
             In the free time, I ♥ playing sports with my homies.
             Currently, I am building my {' '}
             <NextLink href="./works">
