@@ -160,7 +160,7 @@ const Page = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://instagram.com/phatnghi/" target="_blank">
+              <Link href="https://instagram.com/test/" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
@@ -171,7 +171,7 @@ const Page = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://discord.gg/JvYcC9W7" target="_blank">
+              <Link href="https://discord.gg/JvYsC9W7" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
