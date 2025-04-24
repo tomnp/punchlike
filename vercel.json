@@ -1,7 +1,8 @@
 {
   "build": {
     "env": {
-      "NODE_OPTIONS": "--openssl-legacy-provider"
+      "NODE_OPTIONS": "--openssl-legacy-provider",
+      "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund --yes"
     }
   },
   "framework": "nextjs",
@@ -11,7 +12,8 @@
       "src": "package.json",
       "use": "@vercel/next",
       "config": {
-        "installCommand": "npm install --legacy-peer-deps"
+        "installCommand": "npm run vercel-install",
+        "nodeVersion": "16.x"
       }
     }
   ]
