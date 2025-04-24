@@ -126,7 +126,7 @@ const Page = () => {
               Chess
             </Link>,
             Badminton, Music, Playing Esports,{' '}
-            <Link href="https://instagram.com/phatnghi/" target="_blank">
+            <Link href="https://instagram.com/test/" target="_blank">
               Photography
             </Link>
           </Paragraph>
