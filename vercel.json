@@ -3,5 +3,7 @@
     "env": {
       "NODE_OPTIONS": "--openssl-legacy-provider"
     }
-  }
+  },
+  "framework": "nextjs",
+  "version": 2
 } 
